@@ -1,0 +1,75 @@
+
+        .subscribe {
+            background-color: red;
+            height: 36px;
+            color:white;
+            border-radius: 2px;
+            width: 105px;
+            cursor: pointer;
+            border:none;
+            transition: opacity 0.15s;
+        }
+
+        .subscribe:hover{
+            /* background-color: green; */
+            opacity: 0.2;
+        }
+        .subscribe:active{
+            /* background-color: blue; */
+            opacity: 0.5;
+        }
+
+        .join {
+            background-color: white;
+            border-color:rgb(88, 88, 227);
+            color: rgb(88, 88, 227);
+            border-style: solid;
+            border-width: 1px;
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-top : 10px;
+            padding-bottom: 10PX;
+            cursor: pointer;
+            margin-left: 10px;
+            transition:  background-color 0.2s, color 1s;
+        }
+
+        .join:hover{
+            background-color: rgb(88, 88, 227);
+            color:white
+        }
+        .join:active{
+            opacity:0.6;
+        }
+
+        .tweet {
+            background-color: rgb(1, 131, 245);
+            color: white;
+            height: 34px;
+            width: 75px;
+            border-radius: 17px;
+            border: none;
+            font-weight: bold;
+            font-size: 15px;
+            cursor:pointer;
+            margin-left:10px;
+            margin-right:10px;
+        }
+
+        .tweet:hover{
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+        }
+
+        .cart{
+            background-color: yellow;
+            /* width: 200px;
+            height: 34px;  */
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top : 10px;
+            padding-bottom: 10PX;
+            color: black;
+            border-style: none;
+            border-radius: 20px;
+            vertical-align: top;
+        }

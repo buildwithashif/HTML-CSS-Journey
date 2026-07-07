@@ -1,0 +1,54 @@
+    p{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .vdeo-title{
+        font-size: 22px;
+        font-style: normal;
+        font-weight: bold;
+        color: rgb(55, 57, 53);
+        /* font-family: Arial, Helvetica, sans-serif; */
+        width: 300px;
+        line-height: 25px;
+        margin-bottom: 8px;
+        margin-top: 0;
+    }
+
+    .vdeo-stats{
+        /* font-family: Arial; */
+        font-size: 14px;
+        color: rgb(96, 96, 96);
+        margin-top: 0;
+    }
+
+    .name{
+        /* font-family: Arial; */
+        font-size: 16px;
+        color: rgb(96, 96, 96);
+        margin-top: 0;
+        font-weight: bold;
+        line-height:  22px;
+    }
+
+    .description{
+        /* font-family: Arial; */
+        font-size: 15px;
+        color: rgb(96, 96, 96);
+        width: 300px;
+    }
+
+    .bar{
+        background-color: red;
+        text-align: center;
+        padding-bottom: 18px;
+        padding-top: 18px;
+        color: white;
+        font-size: 14px;
+        margin-top: 100px;
+    }
+
+    .sp{
+        cursor:pointer;
+    }
+    .sp:hover{
+        text-decoration: underline;
+    }
